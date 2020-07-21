@@ -1430,7 +1430,7 @@ UniValue getbalance(const JSONRPCRequest& request)
 
             "\nArguments:\n"
             "1. \"account\"      (string, optional) DEPRECATED. This argument will be removed in v5.0.\n"
-            "                    To use this deprecated argument, start pivxd with -deprecatedrpc=accounts."
+            "                    To use this deprecated argument, start pivxd with -deprecatedrpc=accounts. The selected account, or \"*\" for entire wallet. It may be the default account using \"\".\n"
             "2. minconf          (numeric, optional, default=1) DEPRECATED. This argument will be removed in v5.0.\n"
             "                    To use this deprecated argument, start pivxd with -deprecatedrpc=accounts. Only include transactions confirmed at least this many times.\n"
             "3. includeWatchonly (bool, optional, default=false) DEPRECATED. This argument will be removed in v5.0.\n"
